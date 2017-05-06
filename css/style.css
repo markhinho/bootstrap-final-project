@@ -1,0 +1,44 @@
+/*UNIVERSALS*/
+
+
+/*Header*/
+.header h1{
+  letter-spacing: 5px;
+}
+.header p{
+  letter-spacing: 4px;
+}
+/*Nav*/
+.navbar{
+  margin-bottom: 0px;
+}
+.navbar-default{
+  margin-top: 25px;
+  border: none;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+  background-color: #fff;
+  letter-spacing: 4px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+  background-color: transparent;
+  color: #000; /*home button*/
+}
+/*Intro*/
+#intro {
+  background-image: url('../img/intro.jpg');
+  height: 450px;
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
