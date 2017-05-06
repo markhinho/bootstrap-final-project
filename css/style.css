@@ -1,16 +1,29 @@
 /*UNIVERSALS*/
+@import url('https://fonts.googleapis.com/css?family=Cinzel:400,700|Raleway:300,400');
 
+.cinzel{
+  font-family: 'Cinzel', serif;
+}
+
+.raleway{
+  font-family: 'Raleway', sans-serif;
+}
 
 /*Header*/
 .header h1{
   letter-spacing: 5px;
+  font-size: 65px;
 }
 .header p{
   letter-spacing: 4px;
+  font-weight: 700;
 }
 /*Nav*/
 .navbar{
   margin-bottom: 0px;
+}
+.navbar ul>li>a {
+  font-size: 14px;
 }
 .navbar-default{
   margin-top: 25px;
