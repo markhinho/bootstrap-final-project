@@ -1,0 +1,66 @@
+/*UNIVERSALS*/
+@import url('https://fonts.googleapis.com/css?family=Cinzel:400,700|Raleway:300,400');
+
+.cinzel{
+  font-family: 'Cinzel', serif;
+}
+
+.raleway{
+  font-family: 'Raleway', sans-serif;
+}
+
+/*Header*/
+.header h1{
+  letter-spacing: 5px;
+  font-size: 65px;
+}
+.header p{
+  letter-spacing: 4px;
+  font-weight: 700;
+  margin-top: -10px;
+}
+/*Nav*/
+.navbar{
+  margin-bottom: 0px;
+}
+.navbar ul>li>a {
+  font-size: 14px;
+}
+.navbar-default{
+  margin-top: 25px;
+  border: none;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+  background-color: #fff;
+  letter-spacing: 4px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+  background-color: transparent;
+  color: #000; /*home button*/
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+}
+/*Intro*/
+.background-center{
+  height: 450px;
+  background-position: center;
+  background-attachment: fixed;
+}
+#thumbnail {
+  background-image: url('../img/thumbnail-background1.jpg');
+  background-size: cover;
+}
+#intro {
+  background-image: url('../img/intro.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
