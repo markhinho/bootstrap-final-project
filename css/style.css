@@ -51,7 +51,7 @@
 }
 /*Intro*/
 .background-center{
-  height: 450px;
+  height: 400px;
   background-position: center;
   background-attachment: fixed;
 }
@@ -63,4 +63,11 @@
   background-image: url('../img/intro.jpg');
   background-size: contain;
   background-repeat: no-repeat;
+}
+/*About Section*/
+#about-section {
+  margin-top: 75px;
+}
+#about-section p{
+  font-size: 15px;
 }
