@@ -9,7 +9,11 @@
   font-family: 'Raleway', sans-serif;
 }
 
+
 /*Header*/
+.header{
+  margin-bottom: 60px;
+}
 .header h1{
   letter-spacing: 5px;
   font-size: 65px;
@@ -27,7 +31,7 @@
   font-size: 14px;
 }
 .navbar-default{
-  margin-top: 25px;
+  margin-top: 0px;
   border: none;
 }
 .navbar .navbar-nav {
@@ -49,6 +53,16 @@
   color: #000; /*home button*/
   text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
 }
+.affix {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.affix + .container-fluid {
+    padding-top: 70px;
+}
 /*Intro*/
 .background-center{
   height: 400px;
@@ -66,8 +80,18 @@
 }
 /*About Section*/
 #about-section {
-  margin-top: 75px;
+  margin-top: 140px;
+  margin-bottom: 140px;
 }
+
+#about-section h2{
+  margin-bottom: 40px;
+}
+
 #about-section p{
   font-size: 15px;
+}
+/*Portfolio Scetion*/
+#portfolio-section h1 {
+  margin-bottom: 40px;
 }
