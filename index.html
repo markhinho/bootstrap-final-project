@@ -8,44 +8,46 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body data-spy="scroll" data-target="#navbar">
 <!-- Header Begins -->
 	<div class="header">
 		<div class="row">
 			<div class="col-md-12 text-center">
 				<h1 class="cinzel">G Factor</h1>
-				<p class="cinzel">Developer & Musician</p><br>
+				<p class="cinzel">Developer &amp; Musician</p><br>
 				<p class="cinzel">"Skill comes from intelligence"</p>
 			</div>
 		</div>
 	</div>
 <!-- Header Ends -->
+	<div id="navbar">
 <!--Nav Begins-->
-	<nav class="navbar navbar-default navbar-static-top cinzel">
-	  <div class="container-fluid">
-<!-- Brand and toggle get grouped for better mobile display -->
-	    <div class="navbar-header">
-	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-	        <span class="sr-only">Toggle navigation</span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	      </button>
-	    </div>
+		<nav class="navbar navbar-default cinzel navbar-justified" data-spy="affix" data-offset-top="220">
+		  <div class="container-fluid">
+	<!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		    </div>
 
-<!-- Collect the nav links, forms, and other content for toggling -->
-	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	      <ul class="nav navbar-nav">
-	        <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
-	        <li><a href="#about-section">ABOUT</a></li>
-					<li><a href="#">PORTFOLIO</a></li>
-					<li><a href="#">VIDEOS</a></li>
-					<li><a href="#">CONTACT US</a></li>
-	      </ul>
-	    </div><!-- /.navbar-collapse -->
-	  </div><!-- /.container-fluid -->
-	</nav>
+	<!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav">
+		        <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+		        <li><a href="#about-section">ABOUT</a></li>
+						<li><a href="#websites-section">WEBSITE</a></li>
+						<li><a href="#">VIDEOS</a></li>
+						<li><a href="#">CONTACT US</a></li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
 <!--Nav Ends-->
+	</div>
 <!-- Intro Thumbnail Starts -->
 	<div class="container-fluid background-center img-responsive" id="thumbnail">
 		<div class="row">
@@ -74,6 +76,30 @@
 		</div>
 	</div>
 <!-- About Section Ends -->
+<!-- Portfolio Section Starts -->
+	<div class="container-fluid img-responsive" id="websites-section">
+		<div class="row col-md-12 text-center">
+		<h1 class="cinzel">Websites</h1>
+		</div>
+		<div class="row container-fluid content-justify">
+			  <div class="col-xs-6 col-md-4">
+			    <a href="#" class="thumbnail">
+			      <img src="img/first-website.png" alt="...">
+			    </a>
+			  </div>
+				<div class="col-xs-6 col-md-4">
+			    <a href="https://geekwiseb2.github.io/feb-march-restaurante-markhinho/" class="thumbnail">
+			      <img src="img/restaurante1.png" alt="...">
+			    </a>
+			  </div>
+				<div class="col-xs-12 col-md-4">
+			    <a href="https://geekwiseb2.github.io/pet-store-april-2017-markhinho/" class="thumbnail">
+			      <img src="img/pet-store1.png" alt="...">
+			    </a>
+			  </div>
+		</div>
+	</div>
+<!-- Portfolio Section Ends -->
 <!-- javascript	 -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
