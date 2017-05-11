@@ -92,7 +92,7 @@
 #about-section p{
   font-size: 18px;
 }
-/*Portfolio Scetion*/
+/*Websites Scetion*/
 #websites-section {
   height: auto;
   background-image: url('../img/thumbnail-background1.jpg');
@@ -103,4 +103,16 @@
   margin-top: 40px;
   margin-bottom: 80px;
   color: #fff;
+}
+/*Videos Section*/
+#videos-section h2 {
+  margin-top: 140px;
+  margin-bottom: 80px;
+}
+.video-row-spacing {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.curved-border {
+  border-radius: 8px;
 }
