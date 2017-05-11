@@ -17,6 +17,7 @@
 .header h1{
   letter-spacing: 5px;
   font-size: 65px;
+  margin-top: 5px
 }
 .header p{
   letter-spacing: 4px;
@@ -91,8 +92,8 @@
 #about-section p{
   font-size: 18px;
 }
-/*Portfolio Scetion*/
-#websites-section{
+/*Websites Scetion*/
+#websites-section {
   height: auto;
   background-image: url('../img/thumbnail-background1.jpg');
   padding-top: 60px;
@@ -102,4 +103,16 @@
   margin-top: 40px;
   margin-bottom: 80px;
   color: #fff;
+}
+/*Videos Section*/
+#videos-section h2 {
+  margin-top: 140px;
+  margin-bottom: 80px;
+}
+.video-row-spacing {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.curved-border {
+  border-radius: 8px;
 }
