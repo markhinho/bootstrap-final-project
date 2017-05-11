@@ -105,6 +105,9 @@
   color: #fff;
 }
 /*Videos Section*/
+#videos-section {
+  margin-bottom: 180px;
+}
 #videos-section h2 {
   margin-top: 140px;
   margin-bottom: 80px;
@@ -116,3 +119,31 @@
 .curved-border {
   border-radius: 8px;
 }
+/*Contact Section*/
+.contact-background {
+  background-image: url('../img/thumbnail-background1.jpg');
+  height: 250px;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  repeat: no-repeat;
+  z-index: -1;
+}
+.icons-margin {
+  margin-left: 30px;
+}
+#contact-padding {
+  padding-top: 70px;
+}
+#copyright {
+  padding-top: 40px;
+  font-size: 18px;
+}
+footer a{
+  color: #545454;
+}
+footer a:hover {
+  color: #000;
+}
+
+/*Media Queries*/
